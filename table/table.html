@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewpoint" content = "width=device-width, initial-scale=1">
+		<link rel = "stylesheet" href="../style.css">
+		<title> CS185 PA2 Yuehan Li </title>
+        <script src="../script.js"></script>
+	</head>
+
+	<style>
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+
+	<body>
+		<nav>
+            <a href="../index.html">Text</a>
+            <a href="../images/images.html">Images</a>
+            <a href="../videos/videos.html">Videos</a>
+            <a id=current href="./table.html">Table</a>
+            <a href="../email/email.html">Email</a>
+        </nav>
+
+        <h1>Endangered Animals</h1>
+        <table style="width:100%">
+        	<tr>
+        		<th>Common Name</th>
+        		<th>Scientific Name</th> 
+        		<th>Conservation Status</th>
+        	</tr>
+        	<tr>
+        		<td><a id = "animal" href = "https://www.worldwildlife.org/species/amur-leopard">Amur Leopard</a></td>
+        		<td>Panthera pardus orientalis</td>
+        		<td>Critically Endangered</td>
+        	</tr>
+        	<tr>
+        		<td><a id = "animal" href = "https://www.worldwildlife.org/species/black-rhino">Black Rhino</a></td>
+        		<td>Diceros bicornis</td>
+        		<td>Critically Endangered</td>
+        	</tr>
+        	<tr>
+        		<td><a id = "animal" href = "https://www.worldwildlife.org/species/red-panda">Red Panda</a></td>
+        		<td>Ailurus fulgens</td>
+        		<td>Endangered</td>
+        	</tr>
+        </table>
+
+        <button id="ToTop" onclick="ToTop()" title="ToTop">BackToTop</button>	
+
+	</body>
+
+</html>

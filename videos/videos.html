@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewpoint" content = "width=device-width, initial-scale=1">
+        <link rel = "stylesheet" href="../style.css">
+        <title> CS185 PA2 Yuehan Li </title>
+        <script src="../script.js"></script>
+    </head>
+
+
+    <body>
+        <nav>
+            <a href="../index.html">Text</a>
+            <a href="../images/images.html">Images</a>
+            <a id=current href="./videos.html">Videos</a>
+            <a href="../table/table.html">Table</a>
+            <a href="../email/email.html">Email</a>
+        </nav>
+        
+        <div class="contain">
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video1.mp4" type = "video/mp4" controls></video>
+            </div>
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video2.mp4" type = "video/mp4" controls></video>
+            </div>
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video3.mp4" type = "video/mp4" controls></video>
+            </div>
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video4.mp4" type = "video/mp4" controls></video>
+            </div>
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video5.mp4" type = "video/mp4" controls></video>
+            </div>
+            <div class="item">
+                <video onClick="ModalVideo(this)" src="video6.mp4" type = "video/mp4" controls></video>
+            </div>
+        </div>
+
+        <button id="ToTop" onclick="ToTop()" title="BackToTop">Back To Top</button>
+        <div id ="myModal" class="modal">
+            <video class ="modal-content" id="MR" controls></video>
+        </div>
+
+
+    </body>
+</html>
